@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c337a; /* Meesho color */
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .membership-status {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .membership-status .badge-icon, .coins-icon {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .cart-status {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .cart-status .cart-icon {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .session-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  
+  .username-display {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #6c337a;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #e5e5e5;
+    color: black;
+  }
+  
+  .btn-danger {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
